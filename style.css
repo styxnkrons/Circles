@@ -11,6 +11,7 @@
 }
 body{
     background-color: blueviolet;
+    color: lightblue;
 }
 .title:hover{
     transform: translateX(40px);
@@ -18,11 +19,15 @@ body{
     background-color: brown;
 }
 .steps:hover{
-    transform: scale(2);
+    transform: rotate3d(1, 1, 1, 360deg);
     color: rgb(243, 26, 26);
     background-color: blue;
 }
 img:hover{
-    transform: scale(2);
+    transform: skew(10deg);
     transform: rotate(360deg)
+}
+.different{
+    transform:rotateY(40deg);
+    background-color: green; 
 }
