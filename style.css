@@ -1,0 +1,28 @@
+*{
+    text-align: center;
+    -moz-transition-property: all;
+    -moz-transition-duration: 1s;
+    -moz-transition-delay:0s ;
+    -moz-transition-timing-function: ease-in-out;
+    transition-property: color, background-color, transform;
+    transition-duration: 2s; 
+    transition-delay: 0s;
+    transition-timing-function: ease-in-out;
+}
+body{
+    background-color: blueviolet;
+}
+.title:hover{
+    transform: translateX(40px);
+    color: rgb(7, 7, 197);
+    background-color: brown;
+}
+.steps:hover{
+    transform: scale(2);
+    color: rgb(243, 26, 26);
+    background-color: blue;
+}
+img:hover{
+    transform: scale(2);
+    transform: rotate(360deg)
+}
